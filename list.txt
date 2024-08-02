@@ -1,0 +1,43 @@
+npx expo install react-native-safe-area-context
+npm install @react-navigation/bottom-tabs
+npm install @react-navigation/native
+npm install @react-navigation/stack
+npm install @react-navigation/native-stack
+npx expo install expo-image
+npm install axios
+
+
+npx expo install react-native-safe-area-context react-native-gesture-handler expo-linear-gradient react-native-svg react-native-screens
+npx expo install react-native-gesture-handler
+npx expo install expo-linear-gradient
+npx expo install react-native-svg
+npx expo install react-native-screens
+
+
+// Scan
+npx expo install @react-native-community/slider
+npx expo install expo-barcode-scanner
+npx expo install expo-image-picker
+
+// Gallery
+
+npm i react-native-qrcode-svg
+npx expo install react-native-view-shot
+npx expo install expo-media-library
+npx expo install expo-camera
+
+// History
+
+// font
+npx expo install expo-font
+
+// Fire Base and Google Sign in
+npx expo install firebase expo-auth-session expo-crypto expo-web-browser expo-application @react-native-async-storage/async-storage expo-dev-client
+npx expo install expo-auth-session expo-crypto expo-web-browser
+npx expo install expo-application
+npx expo install @react-native-async-storage/async-storage
+npx expo install expo-dev-client
+npm install -g eas-cli
+npx expo install react-native-svg`
+
+#4d4d4d

@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "expo2",
+    "slug": "expo2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/app/splashscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow SeQRScan to access your camera."
+        }
+      ],
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow SeQRScan to access camera."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow SeQRScan to access your photos.",
+          "savePhotosPermission": "Allow SeQRScan to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow SeQRScan to access camera.",
+        "NSMicrophoneUsageDescription": "Allow SeQRScan to access your microphone",
+        "NSPhotoLibraryUsageDescription": "Allow SeQRScanto access your photos.",
+        "NSPhotoLibraryAddUsageDescription": "Allow SeQRScan to save photos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ],
+      "package": "com.kenmark.expo2"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "44aacf38-021a-4903-b71e-68c2b162aa21"
+      }
+    }
+  }
+}
